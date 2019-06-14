@@ -3,7 +3,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 
-driver = webdriver.Chrome(executable_path="C:/Users/LAL KRISHNA/PycharmProjects/12june2019/1.drivers/chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:/Users/LAL KRISHNA/PycharmProjects/12june2019/0.drivers/chromedriver.exe")
 driver.get("https://phptravels.com/")
 
 driver.maximize_window()

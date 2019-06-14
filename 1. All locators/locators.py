@@ -4,7 +4,7 @@
 
 # from selenium import webdriver
 #
-# driver = webdriver.Chrome(executable_path="C:/Users/LAL KRISHNA/PycharmProjects/12june2019/1.drivers/chromedriver.exe")
+# driver = webdriver.Chrome(executable_path="C:/Users/LAL KRISHNA/PycharmProjects/12june2019/0.drivers/chromedriver.exe")
 # driver.get(url="https://www.google.com/")
 # driver.maximize_window()
 # driver.implicitly_wait(30)
@@ -35,9 +35,11 @@
 # # # //tagename[@attribute name1 = "attribute value1" and @attribute name2 = "attribute value2"]
 # # # //tagename[@attribute name1 = "attribute value1" or @attribute name2 = "attribute value2"]
 
-# # # 4.Text
+# # # Doubt : how to do "and" / "or"
+
+# # # 4. Text
 # # # //tagname[text()="text value"]
 
-# # # 5.Contains
+# # # 5. Contains
 # # # Type 1 : //tagename[contains( @attribute name ,     "attribute value" ) ]
 # # # Type 1 : //tagename[contains(      text()     ,        "text value"   )  ]
