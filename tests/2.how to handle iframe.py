@@ -14,13 +14,10 @@ time.sleep(5)
 # # Now we should perform the action inside the alert, for that we should move the control from our window to the alert
 driver.find_element_by_xpath("//button[@id='onesignal-popover-allow-button']").click()
 time.sleep(10)
-# # # Case 1 : Click on the Ok button
-driver.switch_to.alert.accept()
 
-# # # # Case 2 : Click on the Cancel button
-# driver.switch_to.alert.dismiss()
-
-
-
-
-
+phptravels_iframe =  driver.find_element_by_xpath("//div[@id='PopupSignupForm_0']/div[2]/div[2]/iframe")
+driver.switch_to.frame(phptravels_iframe)
+driver.find_element_by_xpath("//input[@id='mc-EMAIL']").send_keys("lalkrishna@gmail.com")
+driver.find_element_by_xpath("//div[@id='SignupForm_0']/div[2]/form/div[2]/input").click()
+time.sleep(5)
+driver.find_element_by_xpath('//*[@id="PopupSignupForm_0"]/div[2]/div[1]').click()
