@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 
@@ -25,7 +24,8 @@ time.sleep(5)
 
 
 # # # Now there are two cases
-# # # Case 1 : If the email id is not exixting in the database, then
+# # # Case 1 : If the email id is not exixting in the database, then easily we can move to the next step
+# # # which is clicking the login button
 
 
 # # # Case 2 : If the email id is existing in the database, then
